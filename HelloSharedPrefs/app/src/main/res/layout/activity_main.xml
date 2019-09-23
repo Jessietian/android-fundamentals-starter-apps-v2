@@ -132,4 +132,15 @@
         app:layout_constraintStart_toEndOf="@+id/count_button"
         app:layout_constraintTop_toBottomOf="@+id/guideline_lower"/>
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
+        android:onClick="launchSecondActivity"
+        android:text="Settings"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
 </android.support.constraint.ConstraintLayout>
